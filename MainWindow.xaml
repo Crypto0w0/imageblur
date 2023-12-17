@@ -1,0 +1,14 @@
+﻿<Window x:Class="imageblur.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:imageblur"
+        xmlns:effects="clr-namespace:System.Windows.Media.Effects;assembly=PresentationCore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Source="C:\Users\HP\Desktop\giu.jpg" Margin="70" Name="img"/>
+        <Slider HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="20" Width="300" ValueChanged="Slider_ValueChanged" Name="sliderj"/>
+    </Grid>
+</Window>
